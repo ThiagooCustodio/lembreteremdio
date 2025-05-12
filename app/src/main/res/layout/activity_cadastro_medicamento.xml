@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7FFFFFFF"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etNomeMedicamento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome do medicamento" />
+
+        <EditText
+            android:id="@+id/etDosagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dosagem (ex: 500mg)" />
+
+        <EditText
+            android:id="@+id/etHorario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Horário (ex: 08:00, 14:00)" />
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Salvar" />
+    </LinearLayout>
+</ScrollView> 

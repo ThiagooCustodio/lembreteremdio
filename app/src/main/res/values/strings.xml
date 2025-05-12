@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">lembrete remédio</string>
+    <string name="BemVind">Bem vindo Usuário</string>
+    <string name="CadastroMedicamentos">Cadastro de Medicamentos</string>
+    <string name="ListaMed">O que devo tomar?</string>
+</resources>
